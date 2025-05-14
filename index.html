@@ -7,11 +7,9 @@
   </head>
   <body>
     <header class="py-4">
-      <div
-        class="flex items-center gap-x-10 mx-auto max-w-7xl px-4 sm:px-6 lg:px-8"
-      >
-        <a href="#" class="flex items-center gap-x-2"
-          ><svg
+      <div class="flex items-center gap-x-10 mx-auto max-w-[95%] px-2">
+        <a href="#" class="flex items-center gap-x-2">
+          <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 24 24"
             fill="currentColor"
@@ -23,8 +21,8 @@
               clip-rule="evenodd"
             />
           </svg>
-          <span class="text-2xl font-black">Code Editor</span></a
-        >
+          <span class="text-2xl font-black">Code Editor</span>
+        </a>
         <nav class="grow">
           <ul class="flex items-center gap-x-8">
             <li class="mr-auto">
@@ -49,5 +47,47 @@
         </nav>
       </div>
     </header>
+    <main>
+      <section class="pt-28 pb-48">
+        <div class="mx-auto max-w-[95%] px-4 flex gap-x-8">
+          <div class="flex flex-col justify-center">
+            <h1 class="text-5xl font-black tracking-tight">
+              Your
+              <span
+                class="bg-gradient-to-r from-purple-600 to-indigo-600 bg-clip-text text-transparent"
+              >
+                VS Code
+              </span>
+              Boost
+            </h1>
+            <p class="mt-4 text-lg text-gray-600">
+              Unlock your coding potential with tailored settings, shortcuts and
+              expert tutorials
+            </p>
+            <div class="mt-8 flex gap-x-2">
+              <a
+                href="#"
+                class="px-8 py-3 text-lg font-semibold rounded-lg bg-indigo-600 hover:bg-indigo-700 text-indigo-50"
+              >
+                Explore
+              </a>
+              <a
+                href="#features"
+                class="px-8 py-3 text-lg font-semibold rounded-lg bg-gray-100 hover:bg-gray-200 text-gray-900"
+              >
+                Learn more
+              </a>
+            </div>
+          </div>
+          <div class="w-2/3">
+            <img
+              src="/editor.png"
+              alt="Editor UI"
+              class="rounded-2xl shadow-2xl"
+            />
+          </div>
+        </div>
+      </section>
+    </main>
   </body>
 </html>
