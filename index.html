@@ -30,6 +30,10 @@
         perspective: 1000px;
       }
 
+      @utility app-input {
+        @apply rounded-lg border border-gray-300 px-4 py-2 shadow-sm focus:outline focus:outline-indigo-600 focus:ring-1;
+      }
+
       @theme {
         --default-font-family: "Open Sans", "sans-serif";
       }
@@ -213,7 +217,7 @@
             <input
               type="email"
               placeholder="Your Email"
-              class="rounded-lg border border-gray-300 px-4 py-2 shadow-sm focus:outline focus:outline-indigo-600 focus:ring-1 w-96"
+              class="app-input w-96"
             />
             <button
               class="px-6 py-2 font-semibold rounded-lg bg-indigo-600 text-indigo-50 hover:bg-indigo-700"
