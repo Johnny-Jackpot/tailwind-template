@@ -315,10 +315,10 @@
         </div>
       </section>
     </main>
-    <!-- <footer class="pt-10 pb-8 bg-indigo-900">
-      <div class="container flex flex-col gap-y-8">
-        <div class="flex">
-          <div class="mr-auto max-w-80">
+    <footer class="py-6 bg-indigo-900 sm:pt-10 sm:pb-8">
+      <div class="container flex flex-col gap-y-6 sm:gap-y-8">
+        <div class="flex flex-col gap-10 sm:flex-row sm:gap-8">
+          <div class="flex flex-col items-start mr-auto sm:max-w-80">
             <a href="#" class="flex items-center gap-x-2">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -334,79 +334,106 @@
               </svg>
               <span class="text-2xl font-black text-white">Code Editor</span>
             </a>
-            <p class="mt-4 text-indigo-200">
+            <p class="mt-2 text-sm text-indigo-200 sm:text-base sm:mt-4">
               Unlock your coding potential with tailored settings, shortcuts,
               and expert tutorials.
             </p>
           </div>
-          <div class="flex gap-x-16">
-            <div class="flex flex-col gap-y-4">
+          <div class="flex flex-col gap-y-8 sm:flex-row sm:gap-x-16">
+            <div class="flex flex-col gap-y-3 sm:gap-y-4">
               <h3
-                class="text-sm text-lg font-semibold tracking-wider text-white uppercase"
+                class="text-sm font-semibold tracking-wider text-white uppercase"
               >
                 Popular Playlist
               </h3>
-              <ul class="flex flex-col gap-y-2">
+              <ul class="flex flex-col gap-y-1 sm:gap-y-2">
                 <li>
-                  <a href="#" class="text-indigo-200 hover:text-white">
+                  <a
+                    href="#"
+                    class="text-sm text-indigo-200 sm:text-base hover:text-white"
+                  >
                     Prettier
                   </a>
                 </li>
                 <li>
-                  <a href="#" class="text-indigo-200 hover:text-white">
+                  <a
+                    href="#"
+                    class="text-sm text-indigo-200 sm:text-base hover:text-white"
+                  >
                     GitLens
                   </a>
                 </li>
                 <li>
-                  <a href="#" class="text-indigo-200 hover:text-white">
+                  <a
+                    href="#"
+                    class="text-sm text-indigo-200 sm:text-base hover:text-white"
+                  >
                     Live Share
                   </a>
                 </li>
               </ul>
             </div>
-            <div class="flex flex-col gap-y-4">
+            <div class="flex flex-col gap-y-3 sm:gap-y-4">
               <h3
-                class="text-sm text-lg font-semibold tracking-wider text-white uppercase"
+                class="text-sm font-semibold tracking-wider text-white uppercase"
               >
                 Configurations
               </h3>
-              <ul class="flex flex-col gap-y-2">
+              <ul class="flex flex-col gap-y-1 sm:gap-y-2">
                 <li>
-                  <a href="#" class="text-indigo-200 hover:text-white">
+                  <a
+                    href="#"
+                    class="text-sm text-indigo-200 sm:text-base hover:text-white"
+                  >
                     Settings
                   </a>
                 </li>
                 <li>
-                  <a href="#" class="text-indigo-200 hover:text-white">
+                  <a
+                    href="#"
+                    class="text-sm text-indigo-200 sm:text-base hover:text-white"
+                  >
                     Keyboard Shortcuts
                   </a>
                 </li>
                 <li>
-                  <a href="#" class="text-indigo-200 hover:text-white">
+                  <a
+                    href="#"
+                    class="text-sm text-indigo-200 sm:text-base hover:text-white"
+                  >
                     Code Snippets
                   </a>
                 </li>
               </ul>
             </div>
-            <div class="flex flex-col gap-y-4">
+            <div class="flex flex-col gap-y-3 sm:gap-y-4">
               <h3
-                class="text-sm text-lg font-semibold tracking-wider text-white uppercase"
+                class="text-sm font-semibold tracking-wider text-white uppercase"
               >
                 Social
               </h3>
-              <ul class="flex flex-col gap-y-2">
+              <ul class="flex flex-col gap-y-1 sm:gap-y-2">
                 <li>
-                  <a href="#" class="text-indigo-200 hover:text-white">
+                  <a
+                    href="#"
+                    class="text-sm text-indigo-200 sm:text-base hover:text-white"
+                  >
                     Youtube
                   </a>
                 </li>
                 <li>
-                  <a href="#" class="text-indigo-200 hover:text-white">
+                  <a
+                    href="#"
+                    class="text-sm text-indigo-200 sm:text-base hover:text-white"
+                  >
                     Telegram
                   </a>
                 </li>
                 <li>
-                  <a href="#" class="text-indigo-200 hover:text-white">
+                  <a
+                    href="#"
+                    class="text-sm text-indigo-200 sm:text-base hover:text-white"
+                  >
                     GitHub
                   </a>
                 </li>
@@ -415,13 +442,13 @@
           </div>
         </div>
         <div
-          class="pt-8 text-sm text-center text-indigo-200 border-t border-indigo-800"
+          class="pt-6 text-sm text-center text-indigo-200 border-t border-indigo-800 sm:pt-8"
         >
           &copy; <span id="currentYear"></span> Code Editor. All rights
           reserved.
         </div>
       </div>
-    </footer> -->
+    </footer>
     <script>
       document.getElementById("currentYear").textContent =
         new Date().getFullYear();
